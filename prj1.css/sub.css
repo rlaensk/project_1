@@ -1,0 +1,523 @@
+@charset "ntf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+#sub {
+    width: 1393px;
+    height: 800px;
+    position: relative;
+    display: flex;
+    top: 80px;
+    margin: 0 auto;
+
+}
+
+
+
+#contents1 {
+    width: 50%;
+    height: 800px;
+
+}
+
+
+.subimg {
+    width: 100%;
+    height: 600px;
+
+    display: inline-block;
+
+
+}
+
+.subimg img {
+    width: 550px;
+    height: 550px;
+    position: absolute;
+    transform: translate(14%, 5%);
+}
+
+.subimg img:not(:first-child) {
+    display: none;
+}
+
+
+.subimgs {
+    width: 500px;
+    height: 110px;
+
+    transform: translate(21%, -14%);
+    bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+
+}
+
+.subimgs img {
+    width: 90px;
+    height: 90px;
+    border-radius: 10px;
+}
+
+.subimgs img:hover {
+    opacity: 0.5;
+}
+
+#contents2 {
+    width: 50%;
+    height: 800px;
+
+}
+
+.name {
+    width: 100%;
+    height: 800px;
+    float: right;
+    top: 0;
+    right: 0;
+    ;
+
+}
+
+.name1 {
+    width: 600px;
+    height: 150px;
+    line-height: 50px;
+}
+
+.name2 {
+    width: 600px;
+    height: 120px;
+    border: 1px solid #888;
+    border-radius: 30px;
+    padding: 20px 30px;
+}
+
+.name2 .dli1 {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.name2 p {
+    font-size: 15px;
+}
+
+.name2 .dli1 p {
+    text-decoration: line-through;
+}
+
+.name2 .dli2 p {
+    text-decoration: none;
+    color: tomato;
+}
+
+.name3 {
+    width: 600px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+}
+
+.name3 .dli {
+    width: 100%;
+    height: 100px;
+}
+
+.name3 img {
+    width: 80px;
+    height: 80px;
+    float: left;
+    margin: 10px 0 0 10px;
+}
+
+.name3 .dli1 {
+    width: 500px;
+    height: 50px;
+    float: right;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    padding: 10px;
+}
+
+
+
+
+
+
+.tex {
+    width: 600px;
+    height: 60px;
+    padding: 10px;
+}
+
+.tex p {
+    width: 100%;
+    height: 30px;
+    ;
+    font-size: 18px;
+}
+
+.tex p span {
+    color: tomato;
+}
+
+.buttonbox {
+    display: flex;
+}
+
+.buttonbox button {
+    width: 20%;
+    height: 30px;
+    border-radius: 10px;
+    border: 0;
+    margin: 0 0 0 15px;
+}
+
+.name4 {
+    width: 600px;
+    height: 60px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.name5 {
+    width: 400px;
+    height: 60px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    position: relative;
+}
+
+.name5 h2 {
+    padding: 20px;
+    width: 100px;
+}
+
+.name5 div {
+    width: 50px;
+    height: 50px;
+    border: 5px solid #e7e7e7;
+    border-radius: 50%;
+    align-self: center;
+}
+
+.wh {
+    background-color: #c9c1b9;
+}
+
+.mgr {
+    background-color: #889599;
+}
+
+.sgr {
+    background-color: #8c6f56;
+}
+
+.cm {
+    background-color: #768287;
+}
+
+.name5 div:hover {
+    opacity: 0.5;
+}
+
+
+/* 네이버페이구매 */
+#naver {
+    width: 1393px;
+    height: 150px;
+
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end
+}
+
+.naverbox {
+    width: 380px;
+    height: 95px;
+    justify-content: flex-end;
+    right: 100px;
+    border-top: 3px solid black;
+    border-bottom: 0.5px solid #999;
+    display: flex;
+    padding: 20px 0 0 0;
+
+}
+
+.naverpay img {
+    width: 65px;
+    height: auto;
+}
+
+.naverpay p {
+    font-weight: bold;
+    font-size: 13px;
+    color: black;
+}
+
+.naverimg .img1 {
+    width: 150px;
+    margin: 0 0 0 8px;
+}
+
+.naverimg .img2 {
+    width: 46px;
+    border: 1px solid #777;
+}
+
+.naverimg .img3 {
+    width: 43px;
+    border: 1px solid #777;
+}
+
+
+/* 관심상품,장바구니 구매버튼 */
+
+
+#buttonbox button {
+    width: 200px;
+    height: 60px;
+    position: relative;
+    background-color: #8c6f56;
+    border: 0;
+}
+
+#buttonbox button:last-child {
+    width: 250px;
+    background-color: #ef2528;
+}
+
+#buttonbox .but3 img {
+    position: absolute;
+    top: 19px;
+    left: 65px;
+}
+
+#buttonbox .but3 span {
+    position: absolute;
+    top: 17px;
+    right: 50px;
+}
+
+#buttonbox .pick {
+    width: 25px;
+    position: absolute;
+    top: 15px;
+    left: 44px;
+}
+
+
+#buttonbox span {
+    position: absolute;
+    top: 17px;
+    left: 76px;
+    font-size: 20px;
+    color: white;
+
+
+}
+
+#reviewsbox {
+    width: 1393px;
+    height: 200px;
+    margin: 0 auto;
+    border-top: 4px solid rgb(71, 70, 70);
+}
+
+#reviews {
+    width: 1393px;
+    height: 160px;
+    margin-top: 40px;
+    display: flex;
+    padding: 20px;
+    border: 1px solid #999;
+
+}
+
+.review1 {
+    width: 50%;
+}
+
+.review1 img:hover{ opacity: 0.5;
+                    }
+.reviewt {
+    display: flex;
+    justify-content: space-between;
+}
+
+.reviewt p {
+    margin-right: 91px;
+}
+
+.review1 img {
+    width: 75px;
+    height: 75px;
+    margin: 25px 3px 0 5px;
+}
+
+.review2 {
+    width: 50%;
+    margin: 0 0 0 10px;
+}
+
+.review2 p {
+    transform: translate(36%, 19%);
+    height: 55px;
+}
+
+
+/* 이벤트베너 */
+.eventb {
+    width: 1393px;
+    margin: 0 auto;
+}
+
+.eventb img {
+    width: 100%;
+    margin: 20px 0 20px 0;
+}
+
+/*  서브메인 */
+#submain {
+    width: 1393px;
+    height: 12000px;
+    margin: 0 auto;
+    display: flex;
+    
+    
+}
+
+#detaul {
+    width: 1021px;
+    height: 100%;
+    
+}
+
+#detaul ul {
+    width:  1021px;
+    display: flex;
+}
+
+#detaul ul li {
+    width: 1021px;
+    height: 60px;
+    border: 1px solid #888;
+    text-align: center;
+    padding-top: 15px;
+    background-color: rgb(247, 244, 244);
+    
+  
+}
+
+#detaul ul li:first-child{ background-color: #fff; border: 1px solid #000; border-bottom: none; }
+
+
+.information-box{ width:  1021px; height: 350px;
+            }
+.information {
+    border: 1px solid#889599; margin: 20px 0 10px 0;
+    padding: 10px;
+    display: flex;
+    height: 139px;
+    
+}
+
+.infor1{ width: 200px;transform: translate(23%, 42%); }
+.infor1 p{color:black; font-weight: bold;}
+
+.infor2 img{float: left; padding: 20px; width: 96px; height: 123px;}
+.infor_{ width: 500px; line-height: 30px;
+        padding: 30px;}
+
+.wa{color: tomato;}
+.wa{margin:40px 0 30px 0;}
+
+
+.subb img{ width: 100%;
+    margin: 25px 0;}
+.subb img:nth-child(2) {
+    width: 100%;
+    height: 400px;
+    margin:  30px 0;
+}
+
+hr{ margin:150px 0;}
+.submain h1{ text-align: center; font-size: 50px; margin: 100px; line-height: 80px; color: black;}
+.submain img{ width: 100%; margin: 40px 0;}
+
+ /* 상세페이지 색상종류 */
+
+.kind{ width: 100%; }
+.kind .color{ display: flex; flex-wrap: wrap; justify-content: space-around; align-content: center;}
+.kind td img{ width: 200px; height: 140px;}
+.kind th{width:200px; height: 100px;}
+.kind td{ width:700px; }
+
+.kind figure{ width: 273px;}
+.kind span{ font-size: 30px;color: black;}
+.color figcaption{ margin: 10px; font-size: 35px;}
+
+
+
+
+
+
+#photoriview img {
+    width: 100%;
+    height: 400px;
+    margin-top: 20px;
+}
+
+/* aside */
+
+aside {
+    width: 370px;
+    height: auto;
+    margin: 0 0 30px 0;
+    position: relative;
+    
+}
+
+.figure{display: flex; flex-wrap: wrap ;justify-content: center; align-content: center;}
+.with{  border-bottom:1px solid rgb(17, 17, 17); margin: 10px;}
+.with h2{ margin: 20px;}
+.with img{ width: 20px; }
+.btl{ margin-left: 60px; margin-bottom: -4px;}
+.btl1{ margin: 0 0 -4px 122px; }
+.btr{ margin-bottom: -4px;}
+
+
+aside figure img{ width: 150px; height: 150px;}
+aside figcaption{ width: 152px; line-height: 20px;}
+.figure span{ font-size: 14px; text-decoration: line-through;}
+.figure p{ font-size: 18px; color: black; font-weight: bold;}
+
+.figure2{display: flex; flex-wrap: wrap ;justify-content: center; align-content: center;
+    }
+
+.f{ height: 240px; margin: 15px;}
+aside figure img{ width: 150px; height: 150px;}
+aside figcaption{ width: 152px; line-height: 20px;}
+.figure2 span{ font-size: 14px; text-decoration: line-through;}
+.figure2 p{ font-size: 18px; color: black; font-weight: bold;}
+
+.flex{ position: sticky; top:140px;}
+
+
+

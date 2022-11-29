@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="prj1.css/common.css">
+    <link rel="stylesheet" href="prj1.css/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+
+    <script>
+
+        $(function () {
+            $(".bs5").click(function () {
+                $(".bs1").show();
+                $(".bs2").hide();
+                $(".bs3").hide();
+                $(".bs4").hide();
+            });
+            $(".bs6").click(function () {
+                $(".bs2").show();
+                $(".bs1").hide();
+                $(".bs3").hide();
+                $(".bs4").hide();
+            });
+            $(".bs7").click(function () {
+                $(".bs3").show();
+                $(".bs2").hide();
+                $(".bs1").hide();
+                $(".bs4").hide();
+
+            });
+            $(".bs8").click(function () {
+                $(".bs4").show();
+                $(".bs2").hide();
+                $(".bs3").hide();
+                $(".bs1").hide();
+            });
+
+
+        });
+
+    </script>
+
+
+</head>
+
+<body>
+    <div class="headerbox">
+        <header>
+            <div id="login">
+                <ul>
+                    <li><a href="#">Login</a></li>
+                    <li><a href="#">Join</a></li>
+                    <li><a href="#">Delivery</a></li>
+                    <li><a href="#">CS Center</a></li>
+                    <li><a href="#">Mt Page</a></li>
+                </ul>
+            </div>
+
+            <div id="logo">
+                <a href="#"><img src="media/한샘로고.png" alt=""></a>
+
+                <div id="bag">
+                    <a href="#"><img src="media/장바구니아이콘.png" alt=""></a>
+                </div>
+
+                <div id="menu">
+                    <a href=""><img src="media/리스트박스.png" alt=""></a>
+                </div>
+
+            </div>
+        </header>
+
+        
+
+    </div>
+
+    <nav id="side">
+        <ul>
+            
+            <li><a href="#">BEDROOM</a></li>
+            <li><a href="#">MATTRESSES</a></li>
+            <li><a href="#">DINING ROOM</a></li>
+            <li><a href="#">SOFA</a></li>
+            <li><a href="#">LIVING ROOM</a></li>
+            <li><a href="#">MISCELLANEOUS</a></li>
+        </ul>
+    </nav>
+    <!-- 메인사진-->
+
+    <div id="slider">
+
+        <div id="main"><img src="media/main.jpg" alt=""></div>
+
+    </div>
+
+
+
+    <!--sns 아이콘 -->
+    <div id="sns">
+        <div id="sns_box">
+            <ul>
+                <li><a href="#"><img src="media/facebook.png" alt=""></a></li>
+                <li><a href="#"><img src="media/twitter.png" alt=""></a></li>
+                <li><a href="#"><img src="media/kakao.png" alt=""></a></li>
+                <li><a href="#"><img src="media/instagram.png" alt=""></a></li>
+                <li><a href="#"><img src="media/고객센터.png" alt=""></a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- 올해시즌 -->
+
+    <div id="trend">
+
+        <div id="trb1">
+            <h1>Trend<br>
+                <span class="trb-a">of the</span>
+                <br>Year
+            </h1>
+            <a href=""><img src="media/메인페이지트렌드.PNG" alt=""></a>
+            <div class="t1">The combination of <br>
+                white color base <br>
+                and soft cream oak makes<br>
+                the living room look wider</div>
+        </div>
+
+        <div id="trb2">
+            <a class="trb2-1" href=""><img src="media/메인페이지조명.PNG" alt=""></a>
+            <div class="t2">With Hanssem Lighting Urban Line, <br>
+                Chloe completes the urban interior <br>
+                with a simple and sophisticated design
+            </div>
+            <a class="trb2-2" href=""><img src="media/메인페이지의자.png" alt=""></a>
+            <div class="t3">Meet the most <br>
+                perfect material. <br>
+                Increase the quality of<br>
+                the kitchen</div>
+        </div>
+
+
+        <div class="trb-t">
+            <a href="#"> Show all the<br>
+                of the <span>season</span>
+            </a>
+        </div>
+
+    </div>
+    <!-- 베스트상품 -->
+    <div id="best">
+        <h1>Bestsellers</h1>
+        <div id="bsb1">
+            <img class="bs1" src="media/베스트상품1.PNG" alt="b1">
+            <img class="bs2" src="media/베스트상품2.PNG" alt="b2">
+            <img class="bs3" src="media/베스트상품3.PNG" alt="b3">
+            <img class="bs4" src="media/베스트상품4.PNG" alt="b4">
+        </div>
+        <div id="bsb2">
+            <ul>
+                <li><a href="#"><img class="bs5" src="media/베스트상품1s.PNG" alt="s1"></a></li>
+                <li><a href="#"><img class="bs6" src="media/베스트상품2s.PNG" alt="s2"></a></li>
+                <li><a href="#"><img class="bs7" src="media/베스트상품3s.PNG" alt="s3"></a></li>
+                <li><a href="#"><img class="bs8" src="media/베스트상품4s.PNG" alt="s4"></a></li>
+            </ul>
+
+        </div>
+
+        <div class="bst-t">
+            <a href="#">Show all the in item<br>
+                <span>Bestsellers</span>
+            </a>
+        </div>
+
+    </div>
+
+
+    <!-- new상품  -->
+    <div id="new">
+
+        <h1>New<br>Product</h1>
+        <div id="img-box1">
+            <a href="#"><img src="media/신상품4.png" alt="" class="new-img1"></a>
+            <a href="#"><img src="media/신상품1.JPG" alt="" class="new-img2"></a>
+
+        </div>
+
+        <div id="img-box2">
+            <a href="#"><img src="media/신상품2.JPG" alt="" class="new-img3"></a>
+            <a href="#"><img src="media/신상품3.JPG" alt="" class="new-img4"></a>
+            <a href="#"><img src="media/신상품5.PNG" alt="" class="new-img5"></a>
+        </div>
+
+        <div class="new-t">
+            <a href="#">Show all the in<br>
+                <span>New Product</span></a>
+
+        </div>
+
+    </div>
+
+
+    <footer>
+
+        <div class="ftlogo">
+            <img src="media/한샘로고.png" alt="">
+        </div>
+
+
+
+
+        <div class="ftimg">
+
+            <div id="ftbox">
+                <div class="ft1">
+
+                    <p>
+                        경기도 안산시 성곡동 665 (주)한샘 대표자 : 김진태<br>
+                        사업자등록번호 : 133-81-22865 통신판매업신고 : 2010-경기안산-0512<br>
+                        개인정보 관리 보호 책임자 : 신희송<br>
+                        한샘몰 고객센터 : 1688-4945 대표번호 : (02)6908-3114 <br>
+                        A/S센터 : <a href="#">as.hanssem.com</a> <a href="#">한샘디자인파크</a></p>
+                </div>
+                <div class="ft2">
+                    <h1>Brands</h1>
+                    <ul class="brand1">
+                        <li><a href="#">FURNICO</a></li>
+                        <li><a href="#">Flasier</a></li>
+                        <li><a href="#">GGUMIGGA</a></li>
+                        <li><a href="#">ERATO</a></li>
+                        <li><a href="#">LUNALAB</a></li>
+                        <li><a href="#">UFO</a></li>
+                        <li><a href="#">LINSY HOME</a></li>
+
+                    </ul>
+                    <ul class="brand2">
+                        <li><a href="#">House Plan</a></li>
+                        <li><a href="#">CoCorobox</a></li>
+                        <li><a href="#">Legrand</a></li>
+                        <li><a href="#">Ortho</a></li>
+                        <li><a href="#">ZINUS</a></li>
+                        <li><a href="#">HITORI</a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+    </footer>
+
+
+</body>
+
+</html>
