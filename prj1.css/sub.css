@@ -492,10 +492,9 @@ hr{ margin:150px 0;}
 .font1{ font-size: 20px; color:#555; margin: 80px 0 0 60px; }
 .font2{ font-size: 50px; color:#222; margin: 30px 0 80px 60px;}
 
-.poc img:nth-child(2){ margin: 0;}
-.poc h1{font-size:40px; margin: 100px 0 50px 0;}
-.poc span{ font-size:30px; line-height:  45px;}
-
+.poc1 {margin: 100px 0 50px 50px;}
+.poc1 h1{font-size:40px; margin: 30px 0; }
+.poc1 span{ font-size:25px; line-height:  45px; margin-top: 30px; }
 
 #photoriview img {
     width: 100%;
@@ -536,7 +535,7 @@ aside figcaption{ width: 152px; line-height: 20px;}
 .figure2 span{ font-size: 14px; text-decoration: line-through;}
 .figure2 p{ font-size: 15px; color: black; font-weight: bold;}
 
-.flex{ position: sticky; top:140px;}
+.flex{ position: sticky; top:120px;}
 
 
 
