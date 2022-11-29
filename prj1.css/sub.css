@@ -6,7 +6,12 @@
     box-sizing: border-box;
 }
 
-
+@font-face {
+    font-family: 'GangwonEduPowerExtraBoldA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEduPowerExtraBoldA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
 #sub {
     width: 1393px;
@@ -396,7 +401,7 @@
 /*  서브메인 */
 #submain {
     width: 1393px;
-    height: 12000px;
+    height: 12000;
     margin: 0 auto;
     display: flex;
     
@@ -428,7 +433,7 @@
 #detaul ul li:first-child{ background-color: #fff; border: 1px solid #000; border-bottom: none; }
 
 
-.information-box{ width:  1021px; height: 350px;
+.information-box{ width:  900px; height: auto;
             }
 .information {
     border: 1px solid#889599; margin: 20px 0 10px 0;
@@ -458,31 +463,38 @@
 }
 
 hr{ margin:150px 0;}
-.submain h1{ text-align: center; font-size: 50px; margin: 100px; line-height: 80px; color: black;}
+.submain h2{ text-align: center; font-size: 40px; margin: 100px; line-height: 80px; color: rgb(22, 22, 22);}
 .submain img{ width: 100%; margin: 40px 0;}
 
  /* 상세페이지 색상종류 */
 
- .kind{ width: 85%; margin-top: 100px; margin: 0 auto;}
- .kind>h2{font-size:30px; padding: 20px 0 30px 0;  border-bottom: 1px solid;}
+ .kind{ width: 85%;  margin: 0 auto;}
+ .kind>h2{font-size:30px; padding: 50px 0 25px 0;  border-bottom: 1px solid #999;}
  .color figure>img{ width: 250px; height: auto;}
- .first{ display: flex; justify-content: space-around; padding: 30px 0 15px 0; border-bottom:1px solid ;}
+ .first{ display: flex; justify-content: space-around; padding: 30px 0 15px 0; border-bottom:1px solid #999 ;}
  .first h3{font-size: 30px;}
- .second{ display: flex; justify-content: space-between; border-bottom: 1px solid;}
+ .second{ display: flex; justify-content: space-between; border-bottom: 1px solid #999;}
  .second h3{ padding: 31px 0 0 46px; width: 266px; font-size: 30px;}
  
  .second span{ display: flex; flex-wrap: wrap;justify-content: space-around;
              padding: 35px 0 0 108px ;}
                  
- .second span figure{ width: 257px;}
+ .second span figure{ width: 245px;}
  .second .color figcaption{ font-size:  28px;}
  
- .third{ display: flex; justify-content: space-around;padding: 30px 0 0 0 ;}
+ .third{ display: flex; justify-content: space-around;padding: 30px 0 30px 0 ;
+         border-bottom: 1px solid #999;}
  .third h3{ width: 200px; padding: 5px 0 0 41px; font-size: 30px;}
 .third span{ font-size: 25px; line-height: 40px;}
  
+.size1{ font-size: 30px;}
 
+.font1{ font-size: 20px; color:#555; margin: 80px 0 0 60px; }
+.font2{ font-size: 50px; color:#222; margin: 30px 0 80px 60px;}
 
+.poc img:nth-child(2){ margin: 0;}
+.poc h1{font-size:40px; margin: 100px 0 50px 0;}
+.poc span{ font-size:30px; line-height:  45px;}
 
 
 #photoriview img {
@@ -512,17 +524,17 @@ aside {
 
 aside figure img{ width: 150px; height: 150px;}
 aside figcaption{ width: 152px; line-height: 20px;}
-.figure span{ font-size: 14px; text-decoration: line-through;}
-.figure p{ font-size: 18px; color: black; font-weight: bold;}
-
+.figure span{ font-size: 13px; text-decoration: line-through;}
+.figure p{ font-size: 15px; color: black; font-weight: bold;}
+.with>h3{ margin: 15px 0 10px 30px;}
 .figure2{display: flex; flex-wrap: wrap ;justify-content: center; align-content: center;
     }
 
-.f{ height: 240px; margin: 15px;}
-aside figure img{ width: 150px; height: 150px;}
+.f{ height: 240px; margin: 10px;}
+aside figure img{ width: 140px; height: 140px;}
 aside figcaption{ width: 152px; line-height: 20px;}
 .figure2 span{ font-size: 14px; text-decoration: line-through;}
-.figure2 p{ font-size: 18px; color: black; font-weight: bold;}
+.figure2 p{ font-size: 15px; color: black; font-weight: bold;}
 
 .flex{ position: sticky; top:140px;}
 
