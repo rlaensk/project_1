@@ -14,7 +14,7 @@
 }
 
 #sub {
-    width: 1393px;
+    width: 1250px;
     height: 800px;
     position: relative;
     display: flex;
@@ -45,7 +45,7 @@
     width: 550px;
     height: 550px;
     position: absolute;
-    transform: translate(14%, 5%);
+    
 }
 
 .subimg img:not(:first-child) {
@@ -57,7 +57,7 @@
     width: 500px;
     height: 110px;
 
-    transform: translate(21%, -14%);
+    transform: translate(4%,-21%);
     bottom: 30px;
     display: flex;
     align-items: center;
@@ -180,6 +180,7 @@
 
 .buttonbox {
     display: flex;
+  
 }
 
 .buttonbox button {
@@ -243,9 +244,10 @@
 }
 
 
+
 /* 네이버페이구매 */
 #naver {
-    width: 1393px;
+    width:1250px;
     height: 150px;
 
     margin: 0 auto;
@@ -294,13 +296,14 @@
 
 /* 관심상품,장바구니 구매버튼 */
 
-
+#buttonbox { width: 600px;display: flex; justify-content: space-around;}
 #buttonbox button {
-    width: 200px;
+    width: 180px;
     height: 60px;
     position: relative;
     background-color: #8c6f56;
     border: 0;
+    
 }
 
 #buttonbox button:last-child {
@@ -339,14 +342,14 @@
 }
 
 #reviewsbox {
-    width: 1393px;
+    width: 1250px;
     height: 200px;
     margin: 0 auto;
     border-top: 4px solid rgb(71, 70, 70);
 }
 
 #reviews {
-    width: 1393px;
+    width: 1250px;
     height: 160px;
     margin-top: 40px;
     display: flex;
@@ -389,7 +392,7 @@
 
 /* 이벤트베너 */
 .eventb {
-    width: 1393px;
+    width: 1250px;
     margin: 0 auto;
 }
 
@@ -400,29 +403,31 @@
 
 /*  서브메인 */
 #submain {
-    width: 1393px;
-    height: 12000;
+    width: 1250px;
+    height: auto;
     margin: 0 auto;
-    display: flex;
+   display: flex;
+  
     
     
 }
 
 #detaul {
-    width: 1021px;
-    height: 100%;
-    
+    width: 100%;
+    height: auto;
+    align-self: center;
+  
 }
 
 #detaul ul {
-    width:  1021px;
+    width:  100%;
     display: flex;
 }
 
 #detaul ul li {
-    width: 1021px;
-    height: 60px;
-    border: 1px solid #888;
+    width: 100%;
+    height: 49px;
+   
     text-align: center;
     padding-top: 15px;
     background-color: rgb(247, 244, 244);
@@ -433,7 +438,7 @@
 #detaul ul li:first-child{ background-color: #fff; border: 1px solid #000; border-bottom: none; }
 
 
-.information-box{ width:  900px; height: auto;
+#information-box{ width:980px; height: auto;
             }
 .information {
     border: 1px solid#889599; margin: 20px 0 10px 0;
@@ -489,8 +494,12 @@ hr{ margin:150px 0;}
  
 .size1{ font-size: 30px;}
 
+
+.pp>h1{font-size: 50px; color: #555; margin:50px 0 20px 50px}
+.pp p{ font-size: 25px;  margin: 50px 0 20px 50px;}
+
 .font1{ font-size: 20px; color:#555; margin: 80px 0 0 60px; }
-.font2{ font-size: 50px; color:#222; margin: 30px 0 80px 60px;}
+.font2{ font-size: 50px; color:#222; margin:50px 0 80px 60px;}
 
 .poc1 {margin: 100px 0 50px 50px;}
 .poc1 h1{font-size:40px; margin: 30px 0; }
@@ -502,18 +511,36 @@ hr{ margin:150px 0;}
     margin-top: 20px;
 }
 
+
+
+#table1 th{width: 200px; height: 60px; background-color: #e7e7e7;font-size: 15px;}
+#table1 td{ width: 293px; background-color: #f7f7f7;}
+#table1 h2{ margin: 150px 0 50px 0;}
+
+
+
+#table2 th{ width: 200px; height: 60px; background-color: #e7e7e7; font-size: 15px;}
+#table2 td{width: 788px;background-color:#f7f7f7; padding: 10px;}
+#table2 h2{ margin: 130px 0 50px 0;}
+
+#table3{ margin: 0 0 100px 0;}
+#table3 th{ width: 200px; height: 60px; background-color: #e7e7e7; font-size: 15px;}
+#table3 td{width: 788px;background-color: #f7f7f7; padding: 10px;}
+#table3 h2{ margin: 130px 0 50px 0;}
+
+
 /* aside */
 
 aside {
-    width: 370px;
+    width: 354px;
     height: auto;
-    margin: 0 0 30px 0;
+    margin: 0 0 30px 4px;
     position: relative;
     
 }
 
 .figure{display: flex; flex-wrap: wrap ;justify-content: center; align-content: center;}
-.with{  border-bottom:1px solid rgb(17, 17, 17); margin: 10px;}
+.with{  border-bottom:1px solid rgb(17, 17, 17); margin: 5px;}
 .with h2{ margin: 20px;}
 .with img{ width: 20px; }
 .btl{ margin-left: 60px; margin-bottom: -4px;}
@@ -529,7 +556,7 @@ aside figcaption{ width: 152px; line-height: 20px;}
 .figure2{display: flex; flex-wrap: wrap ;justify-content: center; align-content: center;
     }
 
-.f{ height: 240px; margin: 10px;}
+.f{ height: 240px; margin: 5px;}
 aside figure img{ width: 140px; height: 140px;}
 aside figcaption{ width: 152px; line-height: 20px;}
 .figure2 span{ font-size: 14px; text-decoration: line-through;}
@@ -538,4 +565,74 @@ aside figcaption{ width: 152px; line-height: 20px;}
 .flex{ position: sticky; top:120px;}
 
 
+/* 배송안내 */
+#shpping{ 
+    width: 1250px; height: auto; margin: 0 auto;
+}
+#shpping img{ width: 74%;}
 
+#detaul2 {
+    width: 930px;
+    height: 100%;
+    align-self: center;
+}
+
+#detaul2 ul {
+    width:  100%;
+    display: flex;
+}
+
+#detaul2 ul li {
+    width: 100%;
+    height: 49px;
+    
+    text-align: center;
+    padding-top: 15px;
+    background-color: rgb(247, 244, 244);
+    
+  
+}
+
+#detaul2 ul li:nth-child(2){ background-color: #fff; border: 1px solid rgb(156, 155, 155); border-bottom: none; }
+
+.shpping-t{ margin: 50px 0 50px 0; }
+.shpping-t p{width: 74.5%; height: 150px; border: 1px solid #c9c1b9;
+    margin: 30px 0; line-height: 25px;padding: 30px; }
+
+
+    #detaul3 {
+        width: 930px;
+        height: 100%;
+        align-self: center;
+        
+    }
+    
+    #detaul3 ul {
+        width:  100%;
+        display: flex;
+    }
+    
+    #detaul3 ul li {
+        width: 100%;
+        height: 49px;
+        
+        text-align: center;
+        padding-top: 15px;
+        background-color: rgb(247, 244, 244);
+        
+      
+    }
+    
+    #detaul3 ul li:nth-child(3){ background-color: #fff; border: 1px solid rgb(156, 155, 155); border-bottom: none; }
+    
+#review {width: 1250px; margin: 0 auto; }
+    .review-t p{ margin: 50px 0 10px 216px; }
+    .review-t span{margin-left:274px;color: tomato;}
+
+    .star-box{ display: flex; width:930px; height: 80px; border: 1px solid #c9c1b9; margin:  50px 0 50px 0;
+                justify-content: center; align-items: center; font-size: 20px;}
+    .star-box img{ width: 150px;}
+    
+
+    .bstreview {display: flex; }
+    .bstreview span{ margin: 5px 0 0 50px; }
