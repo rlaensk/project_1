@@ -625,7 +625,7 @@ aside figcaption{ width: 152px; line-height: 20px;}
     
     #detaul3 ul li:nth-child(3){ background-color: #fff; border: 1px solid rgb(156, 155, 155); border-bottom: none; }
     
-#review {width: 1250px; margin: 0 auto; }
+    #review {width:1250px; margin: 0 auto; }
     .review-t p{ margin: 50px 0 10px 216px; }
     .review-t span{margin-left:274px;color: tomato;}
 
@@ -634,5 +634,19 @@ aside figcaption{ width: 152px; line-height: 20px;}
     .star-box img{ width: 150px;}
     
 
-    .bstreview {display: flex; }
-    .bstreview span{ margin: 5px 0 0 50px; }
+
+
+
+
+.bstreview {display: flex; border-bottom: 2px solid #999;}
+    .bstreview-box {display:flex; justify-content: space-around; width: 930px; height: auto;  }
+    .bstreview span{ margin: 5px 0 30px 50px; }
+
+
+
+
+    .bstreview1 p{ color: #555}
+
+    .bstreview1 { width:206px; border-bottom: 1px solid 999;  margin: 30px 0 0 0;}
+    .bstreview1 img{ width: 180px;}
+    
