@@ -645,8 +645,10 @@ aside figcaption{ width: 152px; line-height: 20px;}
 
 
 
-    .bstreview1 p{ color: #555}
+    .bstreview1 p{ color: rgb(119, 119, 119); font-size:12px;}
 
     .bstreview1 { width:206px; border-bottom: 1px solid 999;  margin: 30px 0 0 0;}
     .bstreview1 img{ width: 180px;}
-    
+
+    .bstreview1 span{color: rgb(172, 67, 67);}
+    .bstreview1 .bs1{width: 80px;margin-bottom: -4px; }
