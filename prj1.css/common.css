@@ -22,10 +22,10 @@ ul,
 li {
         list-style-type: none;
 }
-.headerbox{ width: 100%;height: 100px; position: relative;   }
+.headerbox{ width: 100%;height: 60px; position: relative;   }
 header {
         width: 100%;
-        height: 100px;
+        height: 60px;
         background-color:white;
         opacity: 0.8; z-index: 500;
         position: fixed; 
@@ -60,23 +60,23 @@ header {
         z-index: 135;
     }
     #logo img{
-        width: 300px; height: 69px;
+        width: 220px; height: 40px;
     }
 
 /* 장바구니 */
 
 #bag { 
-        width: 120px;
-        height: 80px;
+        width: 81px;
+        height: 64px;
         position: fixed;
         right: 100px;
-       top:9px; 
+       top:-1px; 
        z-index: 45;
 }
 
 #bag img {
-        width: 90px;
-        height: 80px;
+        width: 79px;
+        height: 69px;
        
        
 }
@@ -84,17 +84,17 @@ header {
 /* 메뉴 */
 
 #menu {
-        width: 110px;
-        height: 100px;
+        width: 96px;
+        height: 80px;
         position: fixed;
-        top:-5px; right: 10px;
+        top:-13px; right: 10px;
         z-index: 50;
         
 }       
 
 #menu img {
-        width: 120px;
-        height: 110px;
+        width: 103px;
+        height: 94px;
         
 }
 
@@ -161,13 +161,14 @@ footer {
 
 
 .ft1{
-    width: 800px;
+    width: 570px;
     height: 300px;
     line-height:3rem;
     float: left;
     margin-top: 60px;
     position: absolute;
     top:0;
+    left: 237px;
 
 }
 .ft2{
