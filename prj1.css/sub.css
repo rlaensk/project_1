@@ -13,6 +13,31 @@
     font-style: normal;
 }
 
+#detaul {
+    width: 930px;
+    height: 60px%;
+    align-self: center;
+    
+}
+
+#detaul ul {
+    width:  100%;
+    display: flex;
+}
+
+#detaul ul li {
+    width: 100%;
+    height: 49px;
+    
+    text-align: center;
+    padding-top: 15px;
+    background-color: rgb(247, 244, 244);
+    
+  
+}
+#detaul ul li:hover{ background-color: #fff; border: 1px solid #000; border-bottom: none; }
+
+
 #sub {
     width: 1250px;
     height: 800px;
@@ -412,30 +437,8 @@
     
 }
 
-#detaul {
-    width: 100%;
-    height: auto;
-    align-self: center;
-  
-}
 
-#detaul ul {
-    width:  100%;
-    display: flex;
-}
 
-#detaul ul li {
-    width: 100%;
-    height: 49px;
-   
-    text-align: center;
-    padding-top: 15px;
-    background-color: rgb(247, 244, 244);
-    
-  
-}
-
-#detaul ul li:first-child{ background-color: #fff; border: 1px solid #000; border-bottom: none; }
 
 
 #information-box{ width:980px; height: auto;
@@ -571,61 +574,19 @@ aside figcaption{ width: 152px; line-height: 20px;}
 }
 #shpping img{ width: 74%;}
 
-#detaul2 {
-    width: 930px;
-    height: 100%;
-    align-self: center;
-}
 
-#detaul2 ul {
-    width:  100%;
-    display: flex;
-}
 
-#detaul2 ul li {
-    width: 100%;
-    height: 49px;
-    
-    text-align: center;
-    padding-top: 15px;
-    background-color: rgb(247, 244, 244);
-    
-  
-}
 
-#detaul2 ul li:nth-child(2){ background-color: #fff; border: 1px solid rgb(156, 155, 155); border-bottom: none; }
 
 .shpping-t{ margin: 50px 0 50px 0; }
 .shpping-t p{width: 74.5%; height: 150px; border: 1px solid #c9c1b9;
     margin: 30px 0; line-height: 25px;padding: 30px; }
 
 
-    #detaul3 {
-        width: 930px;
-        height: 100%;
-        align-self: center;
-        
-    }
+ 
+   
     
-    #detaul3 ul {
-        width:  100%;
-        display: flex;
-    }
-    
-    #detaul3 ul li {
-        width: 100%;
-        height: 49px;
-        
-        text-align: center;
-        padding-top: 15px;
-        background-color: rgb(247, 244, 244);
-        
-      
-    }
-    
-    #detaul3 ul li:nth-child(3){ background-color: #fff; border: 1px solid rgb(156, 155, 155); border-bottom: none; }
-    
-    #review {width:1250px; margin: 0 auto; }
+    #review {width:1250px; height: 1000px; margin: 0 auto; }
     .review-t p{ margin: 50px 0 10px 216px; }
     .review-t span{margin-left:274px;color: tomato;}
 
@@ -638,17 +599,18 @@ aside figcaption{ width: 152px; line-height: 20px;}
 
 
 
-.bstreview {display: flex; border-bottom: 2px solid #999;}
+.bstreview { width: 930px; display: flex; border-bottom: 2px solid #999;}
     .bstreview-box {display:flex; justify-content: space-around; width: 930px; height: auto;  }
     .bstreview span{ margin: 5px 0 30px 50px; }
-
-
-
-
     .bstreview1 p{ color: rgb(119, 119, 119); font-size:12px;}
 
     .bstreview1 { width:206px; border-bottom: 1px solid 999;  margin: 30px 0 0 0;}
-    .bstreview1 img{ width: 180px;}
+    .bstreview1 .rvi{ width: 180px; height: 180px; }
 
-    .bstreview1 span{color: rgb(172, 67, 67);}
-    .bstreview1 .bs1{width: 80px;margin-bottom: -4px; }
+    .bstreview1 span{font-size: 11px; color: rgb(171, 171, 171);}
+    .bstreview1 p .bs1{width: 75px;margin-bottom: -4px;}
+    .bstreview1 div{ font-size: 12px; line-height: 18px;}
+    .bstreview1 .good{display:flex; width: 100px; height: 26px; border: 1px solid rgb(153, 152, 152); border-radius: 20px;
+                    margin:9px 0 0 0;}
+    .bstreview1 .good>img{ width: 17px;height:  18px; margin:1px 0 0 16px;}
+    .bstreview1 .good>span{ margin:5px 0 0 4px; }
