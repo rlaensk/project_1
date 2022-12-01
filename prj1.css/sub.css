@@ -15,7 +15,7 @@
 
 #detaul {
     width: 930px;
-    height: 60px%;
+    height: 60px;
     align-self: center;
     
 }
@@ -23,6 +23,7 @@
 #detaul ul {
     width:  100%;
     display: flex;
+    border-bottom: #222;
 }
 
 #detaul ul li {
@@ -35,9 +36,13 @@
     
   
 }
-#detaul ul li:hover{ background-color: #fff; border: 1px solid #000; border-bottom: none; }
+#detaul ul li:hover, #submain ul li.active{ background-color: #fff; border: 1px solid #000; border-bottom: none; }
+#detaul ul li:hover, #shpping ul li.active{ background-color: #fff; border: 1px solid #000; border-bottom: none; }
+#detaul ul li:hover, #review ul li.active{ background-color: #fff; border: 1px solid #000; border-bottom: none; }
+#detaul ul li:hover, #inquiy ul li.active{ background-color: #fff; border: 1px solid #000; border-bottom: none; }
 
 
+#wrap{ width: 1250px; height: auto; margin: 0 auto;}
 #sub {
     width: 1250px;
     height: 800px;
@@ -559,7 +564,7 @@ aside figcaption{ width: 152px; line-height: 20px;}
 .figure2{display: flex; flex-wrap: wrap ;justify-content: center; align-content: center;
     }
 
-.f{ height: 240px; margin: 5px;}
+.f{ height: 240px; }
 aside figure img{ width: 140px; height: 140px;}
 aside figcaption{ width: 152px; line-height: 20px;}
 .figure2 span{ font-size: 14px; text-decoration: line-through;}
@@ -572,7 +577,7 @@ aside figcaption{ width: 152px; line-height: 20px;}
 #shpping{ 
     width: 1250px; height: auto; margin: 0 auto;
 }
-#shpping img{ width: 74%;}
+#shpping img{ width: 74%; margin-bottom: 163px;}
 
 
 
@@ -586,7 +591,7 @@ aside figcaption{ width: 152px; line-height: 20px;}
  
    
     
-    #review {width:1250px; height: 1000px; margin: 0 auto; }
+    #review {width:1250px; height: auto; margin: 0 auto; }
     .review-t p{ margin: 50px 0 10px 216px; }
     .review-t span{margin-left:274px;color: tomato;}
 
@@ -596,12 +601,13 @@ aside figcaption{ width: 152px; line-height: 20px;}
     
 
 
+/* 베스트상품후기 */
 
 
-
-.bstreview { width: 930px; display: flex; border-bottom: 2px solid #999;}
-    .bstreview-box {display:flex; justify-content: space-around; width: 930px; height: auto;  }
-    .bstreview span{ margin: 5px 0 30px 50px; }
+.bstreview { width: 930px; display: flex; border-bottom: 2px solid #999; padding: 0 0 30px 0;}
+    .bstreview-box {display:flex; justify-content: space-around; width: 930px; height: auto; 
+                   padding: 5px 5px 40px 5px;  }
+    .bstreview span{ margin: 5px 0 0 50px; }
     .bstreview1 p{ color: rgb(119, 119, 119); font-size:12px;}
 
     .bstreview1 { width:206px; border-bottom: 1px solid 999;  margin: 30px 0 0 0;}
@@ -614,3 +620,47 @@ aside figcaption{ width: 152px; line-height: 20px;}
                     margin:9px 0 0 0;}
     .bstreview1 .good>img{ width: 17px;height:  18px; margin:1px 0 0 16px;}
     .bstreview1 .good>span{ margin:5px 0 0 4px; }
+        .review-boxall{ margin-bottom: 50px;}
+    /*  상품후기  */
+
+    .rivew-menu{ width: 30%; height: 40px; margin: 55px 0;}
+    .rivew-menu ul{display: flex; text-align: center; }
+    .rivew-menu ul li{width: 50%; height: 40px; border: 1px solid #999;  border: 0;
+                    font-size: 17px; line-height: 30px; background-color: rgb(247, 244, 244);} 
+    .rivew-menu ul li:hover{background-color: #fff; border: 1px solid #000; border-bottom: none; }
+
+
+    /* 상품문의 */
+
+    #inquiy{ width: 100%; height:auto;}
+    #inquiy h1{ margin: 50px 0;}
+    #inquiy p{ width: 930px; margin: 40px 0 90px 0; line-height: 23px;}
+    #inquiy p span{ color:tomato;}
+
+    /* 상품문의 답변상태 */
+    select{ width: 120px; height: 40px;}
+    select option{ width: 120px; height: 40px;}
+    input{ width: 450px; height: 40px;}
+    #inquiy button{ width:110px; height: 40px; background-color: #222; color: white;}
+    #inquiy button:hover{ background-color: #999; border:0;}
+    .reset{ width: 110px; height: 40px;background-color: #222; color: white; }
+    .reset:hover{ background-color: #999; border: 0; cursor: pointer;}
+
+    /* 상품문의박스 */
+    .inquiybox{ width:930px; height: auto; border-top: 1px solid #555; margin: 40px 0;}
+
+    /* 상품문의 테이블 */
+        .inquiybox{ background-color: rgb(241, 241, 241);;}
+        .inquiybox th{ border:1px solid #e7e7e7;  border-collapse:collapse; }
+        .inquiybox table th:first-child, .inquiybox table th:last-child{border:none; border-top:1px solid #e7e7e7; border-bottom: 1px solid #e7e7e7;}
+
+        /* 상품문의 경고이미지 */
+        .inquiybox-img img{ width: 100px; align-self: center;}
+        .inquiybox-img{ width: 930px; height:400px; display: flex; flex-direction: column;
+            justify-content: center;align-items: center; }
+  .inquiybox-img span{color:rgb(163, 163, 163);}
+        
+/* 상품문의 페이지화살표 */
+.page{ width:100%; height:50px; display: flex; justify-content: center;}
+.page p{ width: 50px; height: 30px; border: 1px solid #e7e7e7;}
+.page img{ width: 27px;}
