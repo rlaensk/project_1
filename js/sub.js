@@ -1,3 +1,5 @@
+// 상품미리보기탭
+
 $(function () {
     $(".subms1").click(function () {
         $(".subm1").show();
@@ -42,3 +44,38 @@ $(function () {
     });
 
 });
+
+
+// 제품고르기탭
+
+
+$(function(){
+
+    $(".wh").click(function(){
+        $("#kind").css("display","flex");
+        $("#kind2").hide();
+        $("#kind3").hide(); 
+        $("#kind4").hide();
+    });
+
+
+    $(".mgr").click(function(){
+        $("#kind2").css("display","flex");
+        $("#kind").hide();
+        $("#kind3").hide(); 
+        $("#kind4").hide();
+    });
+    
+    $(".sgr").click(function(){
+        $("#kind3").css("display","flex");
+        $("#kind2").hide();
+        $("#kind1").hide(); 
+        $("#kind4").hide();
+    });
+    
+    $(".cm").click(function(){
+        $("#kind4").css("display","flex");
+        $("#kind2").hide();
+        $("#kind3").hide(); 
+        $("#kind1").hide();
+    });        });

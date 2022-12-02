@@ -36,16 +36,19 @@
     
   
 }
-#detaul ul li:hover, #submain ul li.active{ background-color: #fff; border: 1px solid #000; border-bottom: none; }
-#detaul ul li:hover, #shpping ul li.active{ background-color: #fff; border: 1px solid #000; border-bottom: none; }
-#detaul ul li:hover, #review ul li.active{ background-color: #fff; border: 1px solid #000; border-bottom: none; }
-#detaul ul li:hover, #inquiy ul li.active{ background-color: #fff; border: 1px solid #000; border-bottom: none; }
 
+
+#detaul ul li:hover{ opacity: 0.8;}
+#submain ul li.active{ background-color: #fff; border: 1px solid #000; border-bottom: none; }
+#shpping ul li.active{ background-color: #fff; border: 1px solid #000; border-bottom: none; }
+#review ul li.active{ background-color: #fff; border: 1px solid #000; border-bottom: none; }
+ #inquiy ul li.active{ background-color: #fff; border: 1px solid #000; border-bottom: none; }
+.rivew-menu .active{ background-color: #fff; border: 1px solid #000; border-bottom: none; }
 
 #wrap{ width: 1250px; height: auto; margin: 0 auto;}
 #sub {
     width: 1250px;
-    height: 800px;
+    height: 960px;
     position: relative;
     display: flex;
     top: 80px;
@@ -211,6 +214,7 @@
 .buttonbox {
     display: flex;
   
+  
 }
 
 .buttonbox button {
@@ -238,6 +242,7 @@
     flex-flow: row wrap;
     justify-content: space-around;
     position: relative;
+  
 }
 
 .name5 h2 {
@@ -251,6 +256,7 @@
     border: 5px solid #e7e7e7;
     border-radius: 50%;
     align-self: center;
+   
 }
 
 .wh {
@@ -270,16 +276,26 @@
 }
 
 .name5 div:hover {
-    opacity: 0.5;
+    opacity: 0.5; cursor: pointer;
 }
 
+/* 색상선택하면 나오는 메뉴창 */
+#kind_box{ width: 100%; height:158px;border-top: 1px solid #999;
+            border-bottom: 1px solid#999; margin: 20px 0;}
+#kind ,#kind2, #kind3, #kind4{ width: 100%; height:100px;   border-radius:  10px; border: 1px solid #999;
+            display: flex; justify-content: space-between; flex-wrap: wrap;
+            padding: 21px;
+            line-height: 31px;
+            margin: 28px 0 0 0;}
+
+#kind2, #kind3, #kind4{ display: none;} 
 
 
 /* 네이버페이구매 */
 #naver {
     width:1250px;
     height: 150px;
-
+padding: 27px 0 0 0;
     margin: 0 auto;
     display: flex;
     justify-content: flex-end
@@ -322,50 +338,44 @@
     width: 43px;
     border: 1px solid #777;
 }
-
+.naverimg .img1, .img2, .img3:hover{ opacity: 0.8; cursor: pointer;}
 
 /* 관심상품,장바구니 구매버튼 */
 
-#buttonbox { width: 600px;display: flex; justify-content: space-around;}
+#buttonbox { width: 625px;display: flex; justify-content: space-between; margin: 40px 0;}
 #buttonbox button {
     width: 180px;
     height: 60px;
-    position: relative;
     background-color: #8c6f56;
     border: 0;
+    padding: 5px;
+    margin: 10px 30px 0 0;
+    position: relative;
     
 }
+#buttonbox button:hover{ opacity: 0.8; cursor: pointer;}
 
 #buttonbox button:last-child {
     width: 250px;
     background-color: #ef2528;
 }
 
-#buttonbox .but3 img {
-    position: absolute;
-    top: 19px;
-    left: 65px;
-}
 
-#buttonbox .but3 span {
-    position: absolute;
-    top: 17px;
-    right: 50px;
-}
+
+
 
 #buttonbox .pick {
     width: 25px;
-    position: absolute;
+   vertical-align: middle;
     top: 15px;
-    left: 44px;
+    left: 32px;
 }
 
 
 #buttonbox span {
-    position: absolute;
-    top: 17px;
-    left: 76px;
-    font-size: 20px;
+   
+   
+    font-size: 18px;
     color: white;
 
 
@@ -626,13 +636,13 @@ aside figcaption{ width: 152px; line-height: 20px;}
     .rivew-menu{ width: 30%; height: 40px; margin: 55px 0;}
     .rivew-menu ul{display: flex; text-align: center; }
     .rivew-menu ul li{width: 50%; height: 40px; border: 1px solid #999;  border: 0;
-                    font-size: 17px; line-height: 30px; background-color: rgb(247, 244, 244);} 
-    .rivew-menu ul li:hover{background-color: #fff; border: 1px solid #000; border-bottom: none; }
+                    font-size: 17px; line-height: 40px; background-color: rgb(247, 244, 244);} 
+    .rivew-menu ul li:hover{opacity: 0.8;}
 
 
     /* 상품문의 */
 
-    #inquiy{ width: 100%; height:auto;}
+    #inquiy{ width: 1250px; height:auto; margin: 0 auto;}
     #inquiy h1{ margin: 50px 0;}
     #inquiy p{ width: 930px; margin: 40px 0 90px 0; line-height: 23px;}
     #inquiy p span{ color:tomato;}
@@ -660,7 +670,3 @@ aside figcaption{ width: 152px; line-height: 20px;}
             justify-content: center;align-items: center; }
   .inquiybox-img span{color:rgb(163, 163, 163);}
         
-/* 상품문의 페이지화살표 */
-.page{ width:100%; height:50px; display: flex; justify-content: center;}
-.page p{ width: 50px; height: 30px; border: 1px solid #e7e7e7;}
-.page img{ width: 27px;}
