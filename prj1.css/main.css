@@ -15,7 +15,7 @@
         
       }
 
-#main { width: 85%;
+#main { width: 100%;
         height: 606px;
         position: relative;
         top:40px;
@@ -32,7 +32,7 @@
 
 /* sns */
 #sns { 
-        width: 90%;
+        width: 100%;
         height: 75px;
         margin: 0 auto;
      
@@ -347,4 +347,5 @@
         text-decoration: underline;
         text-underline-position: under;
 }
+
 

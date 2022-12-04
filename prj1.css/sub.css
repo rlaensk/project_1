@@ -670,3 +670,6 @@ aside figcaption{ width: 152px; line-height: 20px;}
             justify-content: center;align-items: center; }
   .inquiybox-img span{color:rgb(163, 163, 163);}
         
+  .review-i{ font-size: 20px; transform: translate( 34%,-90%);}
+  .review-i img{ width: 15px; height: 15px; background-color: rgb(244, 244, 244); 
+                margin:0 3px; border:1px solid rgb(203, 202, 202);}
