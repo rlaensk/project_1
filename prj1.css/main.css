@@ -11,21 +11,32 @@
 /* 메인이미지 */
 #slider {
         width: 100%;
+        height: auto;
         overflow: hidden;
-        
+       position: relative;
       }
 
 #main { width: 100%;
-        height: 606px;
-        position: relative;
+   
         top:40px;
         margin: 0 auto;
+        position: relative;
+       
 }
+#main img{ width: 100%;}
+.main_text-box{ width: 30%; height: 100%;
+                background-color: ghostwhite;
+                opacity: 0.5;
+                position: absolute; 
+                right:17%;top:0;
+                font-size: 2.5em;
+                text-align: center;
+                padding: 24% 0 0 0;}
 
-#main img {
-        width: 100%;
-        height: 606px;
-}
+#slider .main_text-box span{ color:white; font-size: 20px; border: 2px solid currentColor;
+                               display: inline-block; padding: 10px 25px; border-radius: 2px; background-color: #636363; opacity:none;
+                                margin: 20px;}
+                                
 
 
  
